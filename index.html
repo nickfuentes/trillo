@@ -45,15 +45,58 @@
             <span class="user-nav__notification">13</span>
           </div>
           <div class="user-nav__user">
-            <img src="img/user-7.jpg" alt="User photo" class="user-nav__user-photo">
+            <img
+              src="img/user-7.jpg"
+              alt="User photo"
+              class="user-nav__user-photo"
+            />
             <span class="user-nav__user-name">Nick</span>
           </div>
         </nav>
-        
       </header>
       <div class="content">
         <nav class="sidebar">
-          Navigation
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home3"></use>
+                </svg>
+                <span>Hotel</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-airplane"></use>
+                </svg>
+                <span>Flight</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+                </svg>
+                <span>Car Rental</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-map2"></use>
+                </svg>
+                <span>Tours</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">
+            &copy; 2020 by Trillo. All Rights
+          </div>
         </nav>
         <main class="hotel-view">
           Hotel View
